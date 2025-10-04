@@ -1,0 +1,32 @@
+.header
+{
+    background-color:  rgb(0, 91, 151);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header .wrap
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.wrap
+{
+    max-width:  1500px;
+    margin: 0 auto;
+}
+
+.email-link {
+    color: #c6f754;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.email-link:hover {
+    color: #ffff72;
+    text-decoration: underline;
+}

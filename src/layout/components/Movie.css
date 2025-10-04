@@ -1,0 +1,41 @@
+.card
+{
+    flex: 0 0 calc(25% - 40px); /* 4 карточки в ряд с отступами */
+    max-width: 300px;
+    min-width: 250px; /* Добавляем минимальную ширину */
+    margin: 10px;
+    box-shadow: 1px 1px 4px 2px #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card div {
+    padding: 15px;
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.card p {
+    margin: 0;
+    color: #666;
+}
+
+.card span {
+    float: right;
+    text-transform: capitalize;
+}
